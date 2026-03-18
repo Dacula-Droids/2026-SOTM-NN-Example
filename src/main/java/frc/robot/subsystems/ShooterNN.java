@@ -165,7 +165,8 @@ public class ShooterNN {
      *
      * @param robotPose The pose of your robot in the shooting area. Make sure you take into account alliance coordinate systems beforehand.
      * @param robotVelocity The velocity of your robot. Make sure you take into account alliance coordinate systems beforehand.
-     * @param robotToExitTransform This is the transform from the center of your robot to where the ball will <b>exit</b> the shooter at, <b>NOT</b> the position of the shooter itself. Only the (x,y) are used, the height (z) is already baked into the model; {@code .getExitHeight()}
+     * @param robotToExitTransform This is the transform from the center of your robot to where the ball will <b>exit</b> the shooter at, 
+     * <b>NOT</b> the position of the shooter itself. Only the (x,y) are used, the height (z) is already baked into the model; {@code .getExitHeight()}
      * @return 
      * <ul>
      *  <li>{@code [heading, launch_angle, launch_speed]} if {@code ShooterType.VarPitch_VarSpeed}</li>
